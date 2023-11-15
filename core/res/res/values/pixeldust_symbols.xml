@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+     Copyright (C) 2023 The PixelDust Project
+     SPDX-License-Identifier: Apache-2.0
+-->
+<resources>
+    <java-symbol type="id" name="qs_state_layer" />
+
+    <java-symbol type="string" name="dexopt_progress_msg" />
+    <!-- For dynamic default font styles -->
+    <java-symbol type="string" name="config_bodyFontFamily" />
+
+    <!-- Package Manager -->
+    <java-symbol type="array" name="config_deviceDisabledComponents" />
+    <java-symbol type="array" name="config_globallyDisabledComponents" />
+    <java-symbol type="array" name="config_forceEnabledComponents" />
+
+    <!-- Light / Regular style fonts -->
+    <java-symbol type="string" name="config_lightFontFamily" />
+    <java-symbol type="string" name="config_regularFontFamily" />
+
+    <!-- Whether device supports an alt. ambient display -->
+    <java-symbol type="bool" name="config_alt_ambient_display"/>
+
+    <!-- Location indicator -->
+    <java-symbol type="drawable" name="stat_sys_location" />
+
+    <!-- Bootleg unneccesary gradient declaration | Just for our shishu bars -->
+    <java-symbol type="color" name="bootleg_accent_gradient_end_color" />
+
+    <!-- Transparent color variants -->
+    <java-symbol type="color" name="system_accent_transparent_background_light" />
+    <java-symbol type="color" name="system_accent_transparent_background_dark" />
+
+    <!-- Power menu reboot -->
+    <java-symbol name="reboot_to_bootloader_title" type="string" />
+    <java-symbol name="reboot_to_bootloader_message" type="string" />
+    <java-symbol name="reboot_to_fastboot_title" type="string" />
+    <java-symbol name="reboot_to_fastboot_message" type="string" />
+    <java-symbol name="reboot_to_recovery_title" type="string" />
+    <java-symbol name="reboot_to_recovery_message" type="string" />
+    <java-symbol name="reboot_system_title" type="string" />
+    <java-symbol name="reboot_system_message" type="string" />
+    <java-symbol type="array" name="config_rebootActionsList" />
+    <java-symbol type="array" name="values_globalActionsList" />
+
+    <!-- Whether devices suports in-display fingerprint when screen is off -->
+    <java-symbol type="bool" name="config_supportsScreenOffUdfps" />
+</resources>
